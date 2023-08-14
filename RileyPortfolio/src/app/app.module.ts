@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import {firebaseConfig} from '../environment/environment'
 
+declare var jQuery: any;
+
 @NgModule({
   declarations: [
     AppComponent
